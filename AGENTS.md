@@ -19,7 +19,7 @@ request. State-changing or not, it doesn't matter.
 
 ## Operator Rule 2 — read this file and RESUME.md first
 
-Before doing anything else in this repo, read this CLAUDE.md and RESUME.md.
+Before doing anything else in this repo, read this AGENTS.md and RESUME.md.
 Standing convention across the operator's repos for months — step one,
 every session, no exceptions.
 
@@ -37,7 +37,7 @@ of this rule, not a valid alternative to it. Don't let work sit stranded.
 
 The whole stack's runtime memory infrastructure (mem0, terrestrial-brain,
 OmniRoute, reasoning-bank, continual-harness) lives canonically in
-**aesop-xi** — see `~/repos/aesop-xi/CLAUDE.md` §Runtime memory stack.
+**aesop-xi** — see `~/repos/aesop-xi/AGENTS.md` §Runtime memory stack.
 Not duplicated here.
 
 Every agent in this repo — regardless of harness (Claude Code, Codex, dsh,
