@@ -1,5 +1,10 @@
-# MEMORY.md — Hyperion-OXiLm
+# MEMORY.md — Hyperion-XI
 Durable facts about this repo. Dated; newest first. Updated at session wrap-up.
+
+## 2026-10-05
+- **Renamed Hyperion-OXiLm → Hyperion-XI** (GitHub repo + local clone `~/repos/Hyperion-XI`; the old URL redirects).
+- AGENTS.md is the only instruction file (CLAUDE.md content moved there).
+- `.github/workflows/notify-vault.yml` pings the vault when AGENTS.md/RESUME.md change on main.
 
 ## 2026-10-01
 - Renamed from `horizons-ui` (the UI shell, formerly Horizons UI). Public; auto-merge and auto-delete on; CI check `check` required on main.
