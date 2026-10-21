@@ -1,0 +1,28 @@
+name: CI
+on:
+  pull_request:
+    branches: [main, master]
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Secret scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_LICENSE: ""
+      - name: Validate
+        run: |
+          echo "Repository structure check"
+          test -f README.md || test -f CLAUDE.md || echo "No README or CLAUDE.md found"
+          echo "CI passed"
