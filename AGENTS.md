@@ -1,4 +1,4 @@
-# Horizons UI — master visual presentation shell
+# Hyperion-OXiLm — UI shell (formerly Horizons UI)
 
 Canon name: **Horizons UI**. Rebuilt from scratch 2026-09-15 — the prior
 38-PR history (broken NPU-runtime architecture, half-finished GenieX
