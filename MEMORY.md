@@ -12,3 +12,9 @@ Durable facts about this repo. Dated; newest first. Updated at session wrap-up.
 - `build-apk.yml` is the stripped workflow (no NDK/ORT/ort_engine), per the 2026-09-30 decision. The old "Novus Agenti / Omni Claw" CLAUDE.md is kept at `docs/legacy/`.
 - CI needs `permissions: pull-requests: read` for gitleaks-action (it returned 403 without it).
 - Plan: split into 3 apps (Hyperion UI shell / AEthX-AEsc / CloviX-AEyre); strip daemon/, ort_engine, Clifford. The NPU route for apps is the GenieX Android SDK (`com.qualcomm.qti:geniex-android`).
+
+## 2026-10-23
+- PR #4 (merged 2026-10-21) imported the Sep-13 snapshot; PR #3 (gitleaks CI) is merged. No open PRs.
+- Branch protection on main requires status check `check` (read via `gh api .../protection`).
+- AGENTS.md H1 title still says "Hyperion-OXiLm" after the 2026-10-05 rename to Hyperion-XI.
+- On 2026-10-23 the operator dropped OmniRoute, mem0, Terrestrial Brain, OpenWiki and Qwen3-VL from the stack; AGENTS.md "Memory" section still describes OmniRoute routing (flagged in PENDING.md, not edited).
