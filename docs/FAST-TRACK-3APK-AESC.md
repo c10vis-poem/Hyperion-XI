@@ -112,9 +112,14 @@ Argon's report reduces the 500-plugin sample to 7 pillars and one maxim: hooks r
 | Dual Claude Pro headless CDP round-robin, account rotation | compliance risk; use backoff and queuing (Understood.txt layer 6) |
 | Holograph | unverified repo, no implementation to name; park until the source is in hand |
 | The ~380 remaining directory plugins (notifiers, games, cost bars, video, marketing) | none map to a pillar you lack; the directory stays as reference in `Copy of plugin_directory.md` |
-| OpenRouter Oct 13 / Oct 28 chat recommendations | digest pending; nothing in them has been accepted into this plan |
+| OpenRouter chats: Jev `ingest`/`compare` CLI, pxpipe as T6 ingest step, PGLite `.db` committed in-repo, qmd/LightRAG/MemOS/Memsearch/Neo4j/Tars/smolagents pile, "lightweight scrapers" role for the Rubik Pi | digest in; the first two are hallucinated or already rejected, the rest were never adopted into your own asset list |
 
 ---
+
+### From the OpenRouter chats (Oct 13, Oct 28 x2), what survives
+Accepted and already in this plan: 5+1 tier vault with MAP.md first; 0.8B executor / 9B query / GLM fallback lanes; Claude Pro for coding, Gemini for ingestion, OpenRouter for specifics; NPU manager in APK 1 with a lease protocol; SRVG scoring and the ms-swift `loss_scale` mapping; four-stream receipts with `not_applicable`; secrets as `secret_ref` pointers, `storageState.json` never in git; llm-wiki-compiler core with nocode gates.
+
+Still open, raised there and unanswered: Red Agent annotate-and-reject vs rewrite (the Oct 28 verifier answer says never rewrite RLVR data); Halogen's real identity (three incompatible guesses, default slot `extract.typed`); QWENSST vs SSTR split; phase order (secrets, CAS, storage, compaction, QWENSST, Jev, dispatch, mining). The Jev endpoint conflict (OpenRouter `/api/alpha/decisions` vs `api.typesafe.ai/v1`) is resolved by the claude-jev plugin: TypeSafe is the endpoint, Choice/Noul/Score/Box are the only primitives.
 
 ## What this file does not decide
 - Æsc package name (Hyperion-XI open item 1). Operator picks.
